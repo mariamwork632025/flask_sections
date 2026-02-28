@@ -47,7 +47,7 @@ def home():
 
 @app.route('/jobs')
 def jobs_list():
-    return render_template('jop-list.html',jobs=jobs)
+    return render_template('jobs.html',jobs=jobs)
 
 
 
